@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ArduinoBluetooth</string>
+    <string name="select_device">Select Bluetooth Device</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btnSend">Send</string>
+    <string name="etxt_hint">Send text to arduino!</string>
+	<string name="btnDiscoverText">Scan for Bluetooth Devices</string>
+	<string name="notConnectedString">You have to be connected to a device to send a message!</string>
+	<string name="noPairedDevices">No previously paired devices. Try scanning for new ones!</string>
+	<string name="scanning">Scanning...;</string>
+	<string name="discoveryFinished">Finished Discovering Devices</string>
+	<string name="noDevicesDiscoverd">No devices found. Make sure the device is in discoverable mode and try scanning again.</string>
+	
+	<string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    
+    <string name="bluetoothDenied">Bluetooth was unable to start</string>
+   
+</resources>

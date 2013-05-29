@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/board_uno" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_A0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="A00"
+                android:text="A0" />
+
+            <Button
+                android:id="@+id/btn_A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="A01"
+                android:text="A1" />
+
+            <Button
+                android:id="@+id/btn_A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="A02"
+                android:text="A2" />
+
+            <Button
+                android:id="@+id/btn_A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="A03"
+                android:text="A3" />
+
+            <Button
+                android:id="@+id/btn_A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="A04"
+                android:text="A4" />
+
+            <Button
+                android:id="@+id/btn_A5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="A05"
+                android:text="A5" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/tbtn_D13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D13"
+                android:textOff="D13"
+                android:textOn="D13" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D12"
+                android:textOff="D12"
+                android:textOn="D12" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D11"
+                android:textOff="D11"
+                android:textOn="D11" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D10"
+                android:textOff="D10"
+                android:textOn="D10" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D09"
+                android:textOff="D9"
+                android:textOn="D9" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D08"
+                android:textOff="D8"
+                android:textOn="D8" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D07"
+                android:textOff="D7"
+                android:textOn="D7" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D06"
+                android:textOff="D6"
+                android:textOn="D6" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D05"
+                android:textOff="D5"
+                android:textOn="D5" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D04"
+                android:textOff="D4"
+                android:textOn="D4" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D03"
+                android:textOff="D3"
+                android:textOn="D3" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D02"
+                android:textOff="D2"
+                android:textOn="D2" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D01"
+                android:textOff="D1"
+                android:textOn="D1" />
+
+            <ToggleButton
+                android:id="@+id/tbtn_D00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="D00"
+                android:textOff="D0"
+                android:textOn="D0" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/lv_msgHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="-- Console --" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#f7f7f7" >
+
+        <EditText
+            android:id="@+id/etxt_outgoing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.85"
+            android:ems="10"
+            android:hint="@string/etxt_hint" />
+
+        <Button
+            android:id="@+id/btn_sendMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSend" />
+    </LinearLayout>
+
+</RelativeLayout>

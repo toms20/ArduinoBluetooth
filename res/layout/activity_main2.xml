@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/lv_msgHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_sendMsg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_sendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/btnSend" />
+
+    <EditText
+        android:id="@+id/etxt_outgoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_sendMsg"
+        android:layout_alignBottom="@+id/btn_sendMsg"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btn_sendMsg"
+        android:hint="@string/etxt_hint"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
